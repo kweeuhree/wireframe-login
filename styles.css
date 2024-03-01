@@ -1,0 +1,63 @@
+main {
+    padding: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+}
+
+.form-container {
+    padding: 1vw;
+    height: 45vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    border: transparent;
+    border-radius: 0.3vw;
+    box-shadow: 
+        0 0 5px rgba(210, 210, 210, 0.783),
+        0 5px 15px rgba(210, 210, 210, 0.783),
+        5px 0 15px rgba(210, 210, 210, 0.783),
+        0 0 5px rgba(210, 210, 210, 0.783);
+}
+
+.top-image-div {
+    margin-bottom: 1.4vw;
+    text-align: center;
+    
+}
+
+.icon {
+    font-size: 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input-div {
+    padding: 0.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 0.5vw;
+    gap: 0.2vw;
+}
+
+.button-div {
+    text-align: center;
+    margin: 0.5vw;
+}
+
+.button-div button {
+    background-color: rgb(98,160,253);
+    border: transparent;
+    border-radius: 0.2vw;
+    padding: 0.45vw;
+    color: white;
+}
+
+.create-account {
+    margin-top: 2vw;
+    color: rgb(98,160,253)
+}
